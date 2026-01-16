@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<title>behu Grek | Ελληνικό Διαβατήριο</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg,#003366,#0055a5);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #003366;
+}
+
+.services, .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: #0055a5;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: #001a33;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>behu Grek</h1>
+    <p>Συμβουλευτική Υποστήριξη για Ελληνικό Διαβατήριο</p>
+</header>
+
+<section>
+<h2>Ποιοι είμαστε</h2>
+<p>
+Στο behu Grek βοηθάμε ανθρώπους από όλο τον κόσμο να ολοκληρώσουν
+σωστά και γρήγορα τη διαδικασία απόκτησης ελληνικού διαβατηρίου.
+Παρέχουμε αξιόπιστη καθοδήγηση βήμα προς βήμα.
+</p>
+</section>
+
+<section>
+<h2>Υπηρεσίες</h2>
+<div class="services">
+<div class="card">
+<h3>Έλεγχος Δικαιολογητικών</h3>
+<p>Ελέγχουμε αν πληροίτε τις προϋποθέσεις και τι έγγραφα χρειάζεστε.</p>
+</div>
+
+<div class="card">
+<h3>Συμπλήρωση Αιτήσεων</h3>
+<p>Σας βοηθάμε να συμπληρώσετε σωστά όλα τα απαραίτητα έντυπα.</p>
+</div>
+
+<div class="card">
+<h3>Καθοδήγηση Συνεντεύξεων</h3>
+<p>Προετοιμασία για συνεντεύξεις & ερωτήσεις.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Διαδικασία</h2>
+<div class="steps">
+<div class="card">1️⃣ Αξιολόγηση περίπτωσης</div>
+<div class="card">2️⃣ Συλλογή εγγράφων</div>
+<div class="card">3️⃣ Υποβολή αίτησης</div>
+<div class="card">4️⃣ Παρακολούθηση εξέλιξης</div>
+</div>
+</section>
+
+<section class="contact">
+<h2>Επικοινωνία</h2>
+<form>
+<input type="text" placeholder="Ονοματεπώνυμο" required>
+<input type="email" placeholder="Email" required>
+<textarea rows="4" placeholder="Μήνυμα"></textarea>
+<button>Αποστολή</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 behu Grek | Όλα τα δικαιώματα κατοχυρωμένα</p>
+</footer>
+
+</body>
+</html>
